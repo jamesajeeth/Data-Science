@@ -10,4 +10,4 @@ Model Deployment:
 
 2. Change the saved_path in prediction_final.py file to the path where the Saved model folder located in your local machine.
 
-3. In command prompt change the directory to Code FIle and Run the code as >> python app.py
+3. In command prompt change the directory to Hate Speech Detection and Run the code as >> python app.py
