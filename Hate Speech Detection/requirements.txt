@@ -1,6 +1,0 @@
-pickle
-re
-tweepy
-twitter
-flask
-scikit-learn==0.23.1
