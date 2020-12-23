@@ -1,0 +1,12 @@
+{% extends"layout.html" %}
+{% block content %}
+	<div class="center">
+		<svg width="200" height="200"
+  		xmlns="http://www.w3.org/2000/svg">
+ 		<image href="https://upload.wikimedia.org/wikipedia/commons/d/dc/Google_Fit_icon_%282018%29.svg" height="200" width="200"/>
+		</svg>
+        <h2>Result of {{name}}</h2> <br>
+        <img src="{{ image_path }}" alt="Input Image" height="50" width="50"> 
+        <h3>{{ result }} </h3>
+    </div>
+{% endblock %}

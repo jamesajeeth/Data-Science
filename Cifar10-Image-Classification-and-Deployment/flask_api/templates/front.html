@@ -1,0 +1,16 @@
+{% extends"layout.html" %}
+{% block content %}
+	<div class="center">
+        <h1>
+            <p>USER DASHBOARD</p>
+        </h1><br>
+        <h4>
+            <p>Choose the model you want to process?</p>
+        </h4>
+        <form method="POST" action={{ url_for("root1") }}>
+        <input class="button button1" type="submit" name="submit_button" value="GoogleNet"> 
+        <input class="button button2" type="submit" name="submit_button" value="DenseNet">
+        <input class="button button3" type="submit" name="submit_button" value="ResNet50">
+        </form>
+	</div>
+{% endblock %}
