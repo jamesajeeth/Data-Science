@@ -7,7 +7,7 @@ To setup the environment
 python -m pip install -U virtualenv # install the virtualenv
 virtualenv -p python dev_env # creating an environment
 source dev_env/bin/activate # activate environment
-git clone https://github.com/entiretydotai/Image-Classification-and-Deployment #clone the repo
+git clone https://github.com/jamesajeeth/Data-Science/tree/master/Cifar10-Image-Classification-and-Deployment #clone the repo
 Download the saved_file from the drive link and paste it in src/saved_weights
 cd Image-Classification-and-Deployment
 pip install -r requirements.txt # install the requirements
