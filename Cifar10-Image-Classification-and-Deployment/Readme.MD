@@ -4,19 +4,19 @@ Saved_weights drive link -->  https://drive.google.com/drive/folders/1hmhy9_7etJ
 
 To setup the environment 
 
-#install the virtualenv
+#install the virtualenv: 
 python -m pip install -U virtualenv 
 
-#creating an environment
+#creating an environment: 
 virtualenv -p python dev_env
 
-#activate environment
+#activate environment: 
 source dev_env/bin/activate 
 
-#clone the repo
+#clone the repo: 
 git clone https://github.com/jamesajeeth/Data-Science/tree/master/Cifar10-Image-Classification-and-Deployment
 
-#save the saved_weights
+#save the saved_weights: 
 Download the saved_file from the drive link and paste it in src/saved_weights
 cd Image-Classification-and-Deployment
 pip install -r requirements.txt # install the requirements
